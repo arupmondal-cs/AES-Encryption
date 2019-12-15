@@ -3,9 +3,9 @@ using System.IO;
 using System.Text;
 using System.Security.Cryptography;
 
-namespace Aes_Example
+namespace AES
 {
-    class AesExample
+    class AESClass
     {
         public static void Main()
         {
