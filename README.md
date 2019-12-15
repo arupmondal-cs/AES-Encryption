@@ -32,5 +32,5 @@ AES is based on a design principle known as a substitution–permutation network
   
   ## References
   
-    * https://en.wikipedia.org/wiki/Advanced_Encryption_Standard
-    * https://docs.microsoft.com/en-us/dotnet/api/system.security.cryptography.aes?view=netframework-4.8
+  * https://en.wikipedia.org/wiki/Advanced_Encryption_Standard
+  * https://docs.microsoft.com/en-us/dotnet/api/system.security.cryptography.aes?view=netframework-4.8
