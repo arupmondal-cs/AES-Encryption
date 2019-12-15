@@ -15,6 +15,31 @@ The following steps describe the AES encyption scheme,
 
 #### Step 1
 
+> AESClass
+
+This class contains the **Main()** function which manages the AES encryption scheme.
+
+#### Step 2
+
+> Aes myAes = Aes.Create()
+
+Creates a cryptographic object that specifies the implementation of AES to use to perform the symmetric algorithm.
+
+#### Step 3
+
+> byte[] encrypted = EncryptStringToBytes_Aes(message, myAes.Key, myAes.IV);
+
+**EncryptStringToBytes_Aes** encryption function, which takes three inputs,
+
+  * **message** plaintext that you want to encrypt
+  * **myAes.Key** and **myAes.IV** : a new instance of the Aes class. This generates a new key and initialization vector         (IV).
+  
+#### Step 4
+
+> string Final = DecryptStringFromBytes_Aes(encrypted, myAes.Key, myAes.IV);
+
+**DecryptStringFromBytes_Aes** decryption function which takes same **key** and **IV** for decrypt the message.
+
 
 ## Compile and Run
   
