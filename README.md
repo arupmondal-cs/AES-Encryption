@@ -49,11 +49,15 @@ Creates a cryptographic object that specifies the implementation of AES to use t
   
   To Compile:
   
-  > **mcs AES.cs**
+  ```
+  $ mcs AES.cs
+  ```
   
   The compiler will create **"AES.exe"**, which you can run using:
   
-  > **mono AES.exe**
+  ```
+  mono AES.exe
+  ```
   
   
   ## Execution with Pictures
