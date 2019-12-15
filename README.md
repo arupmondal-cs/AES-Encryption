@@ -28,3 +28,9 @@ AES is based on a design principle known as a substitution–permutation network
   The output looks like the following where you can type any text that will be encrypted and decrypted.
   
   ![Compile-Run](https://github.com/arupmondal-cs/AES-Encryption/blob/master/Picture/compile-run.png)
+  
+  
+  ## References
+  
+    * https://en.wikipedia.org/wiki/Advanced_Encryption_Standard
+    * https://docs.microsoft.com/en-us/dotnet/api/system.security.cryptography.aes?view=netframework-4.8
