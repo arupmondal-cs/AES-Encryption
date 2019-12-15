@@ -64,7 +64,7 @@ string Final = DecryptStringFromBytes_Aes(encrypted, myAes.Key, myAes.IV)
   The compiler will create **"AES.exe"**, which you can run using:
   
   ```
-  mono AES.exe
+  $ mono AES.exe
   ```
   
   
