@@ -6,7 +6,15 @@ The **Advanced Encryption Standard (AES)**, also known by its original name **Ri
 
 AES is a subset of the Rijndael block cipher  developed by two Belgian cryptographers, **Vincent Rijmen** and **Joan Daemen**, who submitted a proposal to NIST during the AES selection process. Rijndael is a family of ciphers with different key and block sizes.
 
-AES is based on a design principle known as a substitution–permutation network, and is efficient in both software and hardware. Unlike its predecessor DES, AES does not use a Feistel network. AES is a variant of Rijndael which has a fixed block size of 128 bits, and a key size of 128, 192, or 256 bits. By contrast, Rijndael per se is specified with block and key sizes that may be any multiple of 32 bits, with a minimum of 128 and a maximum of 256 bits.
+AES is based on a design principle known as a **substitution–permutation network**, and is efficient in both software and hardware. Unlike its predecessor DES, AES does not use a **Feistel network**. AES is a variant of Rijndael which has a fixed **block size** of 128 bits, and a **key size** of 128, 192, or 256 bits. By contrast, Rijndael per se is specified with block and key sizes that may be any multiple of 32 bits, with a minimum of 128 and a maximum of 256 bits.
+
+
+## File Descriptions
+
+The following steps describe the AES encyption scheme,
+
+### Step 1
+
 
 ## Compile and Run
   
